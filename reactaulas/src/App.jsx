@@ -1,19 +1,13 @@
 import './App.css'
+import Topo from './components/Topo.jsx'
+import Main from './components/Main.jsx'
 
 function App() {
+
   return (
     <>
-      <section>
-        <article>
-          <h1>Vai toma suco</h1>
-        </article>
-      </section>
-
-      <section>
-        <article>
-          <h2>Oi</h2>
-        </article>
-      </section>
+      <Topo/>
+      <Main/>
     </>
   )
 }
