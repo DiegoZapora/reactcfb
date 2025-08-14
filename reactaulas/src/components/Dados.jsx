@@ -1,10 +1,10 @@
-export default function Dados(props) {
+import Samp from './Samp'
+import './Dados.css'
+
+export default function Dados() {
     return (
-        <section>
-            <p>Album: {props.album}</p>
-            <p>Musica: {props.musica}</p>
-            <p>Cantor: {props.cantor}</p>
-            <p>Soma: {props.somar}</p>
+        <section className='dados'>
+            <Samp nome='Andre Matos' album='Mentalize' musica='Mirror of Me'/>
         </section>
     )
 }

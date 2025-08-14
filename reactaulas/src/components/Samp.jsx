@@ -1,8 +1,9 @@
 export default function Samp(props) {
-
     return (
-        <section id='oi'>
-           <h1>Olá, {props.nome}</h1>
+        <section>
+            <p>Nome: {props.nome}</p>
+            <p>Album: {props.album}</p>
+            <p>Musica: {props.musica}</p>
         </section>
     )
 }

@@ -1,6 +1,8 @@
 import './App.css'
 import Topo from './components/Topo.jsx'
 import Main from './components/Main.jsx'
+import Dados from './components/Dados.jsx'
+import State from './components/State.jsx'
 
 function App() {
 
@@ -8,6 +10,8 @@ function App() {
     <>
       <Topo/>
       <Main/>
+      <Dados/>
+      <State/>
     </>
   )
 }
