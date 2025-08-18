@@ -1,8 +1,9 @@
 import './App.css'
-import Topo from './components/Topo.jsx'
-import Main from './components/Main.jsx'
-import Dados from './components/Dados.jsx'
-import State from './components/State.jsx'
+import Topo from './components/Topo/Topo.jsx'
+import Main from './components/Meio/Main.jsx'
+import Dados from './components/Outros/Dados.jsx'
+import State from './components/Outros/State.jsx'
+import Eventos from './components/Eventos/Eventos.jsx'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Main/>
       <Dados/>
       <State/>
+      <Eventos/>
     </>
   )
 }
